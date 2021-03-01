@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
 
 header {
     padding: 20px 35px;
-    background-color: blue;
+    background-color: rgb(95, 122, 241);
 }
 
 header h1 {
@@ -38,3 +39,39 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 20px;
 }
+
+footer {
+    background-color: rgb(95, 122, 241);
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: black;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: black;
+}
+
+section {
+    padding: 40px;
+}
+
+/* Hero Style start */
+.hero {
+    background-image: url("../images/stock-photo-web-development-coding-programming-internet-technology-business-concept-1141706672.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+/* Hero Style End */
